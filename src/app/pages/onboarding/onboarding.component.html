@@ -1,0 +1,24 @@
+<body>
+  <header>
+    <button
+      class="btn-header"
+      *ngIf="index > 0"
+      (click)="changeIndex(index - 1)"
+    >
+      <img src="../../../assets/left-arrow.png" alt="" />
+      Voltar
+    </button>
+    <button class="btn-header" *ngIf="index == 2">
+      Pular
+      <img src="../../../assets/right-arrow.png" alt="" />
+    </button>
+  </header>
+  <section>
+    <img [src]="pages.pages[index].image" alt="" />
+    <span>{{ pages.pages[index].title }}</span>
+    <p>{{ pages.pages[index].text }}</p>
+    <button class="btn-primary" (click)="changeIndex(index + 1)">
+      {{ pages.pages[index].button }}
+    </button>
+  </section>
+</body>

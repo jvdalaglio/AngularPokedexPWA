@@ -1,0 +1,22 @@
+{
+  "pages": [
+    {
+      "image": "../../../assets/onboarding-image-01.png",
+      "title": "Todos os Pokémons em um só Lugar",
+      "text": "Acesse uma vasta lista de Pokémon de todas as gerações já feitas pela Nintendo",
+      "button": "Continuar"
+    },
+    {
+      "image": "../../../assets/onboarding-image-02.png",
+      "title": "Mantenha sua Pokédex atualizada",
+      "text": "Cadastre-se e mantenha seu perfil, pokémon favoritos, configurações e muito mais, salvos no aplicativo, mesmo sem conexão com a internet.",
+      "button": "Vamos começar!"
+    },
+    {
+      "image": "../../../assets/onboarding-image-03.png",
+      "title": "Está pronto para essa aventura?",
+      "text": "Basta criar uma conta e começar a explorar o mundo dos Pokémon hoje!",
+      "button": "Começar!"
+    }
+  ]
+}
